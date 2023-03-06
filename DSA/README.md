@@ -1,18 +1,16 @@
 ## Data Structures and Algorithms
 In this section we will dicsuss below data structures
-1.   Array
-2.   String
-3.   Linked List
-4.   Matrix/Grid
-5.   Stack
-6.   Queue
-7.   Heap
-8.   Hash
-9.   Tree Data Structures
-10.   Binary Tree
-11.   Binary Search Tree
-12.   Other Tree Data Structures
-13.   Graph Data Structure
+1.   Linked List
+2.   Matrix/Grid
+3.   Stack
+4.   Queue
+5.   Heap
+6.   Hash
+7.   Tree Data Structures
+8.   Binary Tree
+9.   Binary Search Tree
+10.   Other Tree Data Structures
+11.   Graph Data Structure
 
 This section will also cover the algorithms
 
