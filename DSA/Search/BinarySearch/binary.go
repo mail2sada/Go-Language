@@ -1,7 +1,5 @@
 package binarysearch
 
-import "fmt"
-
 // Binary search requires dataList to be sorted
 // in this example we will assume dataList is sorted
 
@@ -16,7 +14,7 @@ func BinarySearch(dataList []int, key int) (pos int, found bool) {
 	for low < high {
 
 		median := (low + high) / 2
-		fmt.Println("High: ", high, "\t low:", low, "\t median:", median, "\t dataList[median]:", dataList[median], "\t key", key)
+		//fmt.Println("High: ", high, "\t low:", low, "\t median:", median, "\t dataList[median]:", dataList[median], "\t key", key)
 		if dataList[median] < key {
 			low = median + 1
 		} else if dataList[median] > key {
@@ -26,7 +24,6 @@ func BinarySearch(dataList []int, key int) (pos int, found bool) {
 			found = true
 			break
 		}
-
 	}
 	return
 }

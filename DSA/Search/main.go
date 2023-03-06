@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	binarysearch "search/BinarySearch"
+	interpolationsearch "search/InterpolationSearch"
 	linearsearch "search/LinearSearch"
 )
 
@@ -47,6 +48,14 @@ func main() {
 	}
 
 	pos, found = binarysearch.BinarySearch(dataList, 56)
+
+	if found {
+		fmt.Println("Found element at:", pos)
+	} else {
+		fmt.Println("Not found")
+	}
+
+	pos, found = interpolationsearch.InterpolationSearch(dataList, 22)
 
 	if found {
 		fmt.Println("Found element at:", pos)
